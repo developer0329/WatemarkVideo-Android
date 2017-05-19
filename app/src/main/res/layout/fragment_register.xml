@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textSize="56sp"
+        android:textColor="@color/green"
+        android:text="GreenShot"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:fontFamily="serif"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/textView" />
+
+
+    <TextView
+        android:id="@+id/lbl_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/username"
+        android:layout_below="@+id/txv_username"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/txv_username"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_input"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:inputType="number"
+        android:paddingLeft="12dp"
+        android:singleLine="true"
+        android:layout_below="@+id/lbl_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="16dp"
+        android:paddingStart="8dp"
+        android:paddingRight="8dp"/>
+
+    <TextView
+        android:id="@+id/lbl_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/password"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/lbl_username"
+        android:layout_alignStart="@+id/lbl_username" />
+
+    <EditText
+        android:id="@+id/txv_password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_input"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:paddingLeft="12dp"
+        android:inputType="numberPassword"
+        android:layout_below="@+id/lbl_username"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:paddingStart="8dp"
+        android:paddingRight="8dp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/start"
+        android:layout_below="@+id/txv_password"
+        android:layout_marginTop="56dp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

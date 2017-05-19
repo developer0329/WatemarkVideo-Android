@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GreenShot</string>
+    <string name="username">מספר גלריה</string>
+    <string name="password">מספר אבטחה</string>
+
+    <string name="error">רישום לא הצליח</string>
+    <string name="picture_title">GreenShot-Image</string>
+    <string name="picture_description">Description</string>
+    <string name="video_description">Description</string>
+
+    <string name="downloading_watermarks">מוריד גלופות…</string>
+    <string name="saving_images">שומר תמונות…</string>
+
+</resources>
