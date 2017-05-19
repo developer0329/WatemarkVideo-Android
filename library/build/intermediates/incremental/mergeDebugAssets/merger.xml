@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/Maksim/Downloads/VideoWaterMark/library/src/main/assets"/><source path="/Users/Maksim/Downloads/VideoWaterMark/library/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/Maksim/Downloads/VideoWaterMark/library/src/debug/assets"/></dataSet></merger>

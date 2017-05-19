@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- pressed -->
+    <item android:drawable="@drawable/rightbutton_selected" android:state_enabled="false"/>
+    <!-- focused -->
+    <item android:drawable="@drawable/rightbutton_notselected" android:state_enabled="true" android:state_pressed="false"/>
+    <!-- default -->
+    <item android:drawable="@drawable/rightbutton_selected" android:state_pressed="true"/>
+
+</selector>
